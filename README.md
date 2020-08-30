@@ -11,7 +11,6 @@ https://github.com/rjkris/cifar10-HLS
   $ vivado_hls -f script.tcl
   ```
 
-
   ```
   (edit  /FPGA/RTL/script.tcl)
    -> em.avnet.com:ultra96v1:part0:1.2
@@ -28,4 +27,4 @@ https://github.com/rjkris/cifar10-HLS
     
   ```
   
-come from .ddkdkdkd33ffd
+come from tt
