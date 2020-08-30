@@ -2,6 +2,8 @@
 https://github.com/rjkris/cifar10-HLS
 
 
+
+
 ## HLS
   - make IP
   ```
@@ -28,4 +30,4 @@ https://github.com/rjkris/cifar10-HLS
     
   ```
   
-come from ..
+come from .22.
