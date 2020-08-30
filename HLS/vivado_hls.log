@@ -1,21 +1,45 @@
 INFO: [HLS 200-10] Running '/opt/xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/vivado_hls'
-INFO: [HLS 200-10] For user 'max' on host 'max-ubuntu' (Linux_x86_64 version 5.3.0-40-generic) on Sun Aug 30 13:11:34 KST 2020
+INFO: [HLS 200-10] For user 'max' on host 'max-ubuntu' (Linux_x86_64 version 5.3.0-40-generic) on Sun Aug 30 13:23:14 KST 2020
 INFO: [HLS 200-10] On os Ubuntu 18.04.4 LTS
 INFO: [HLS 200-10] In directory '/home/max/work/MaxConvNet/HLS'
-Sourcing Tcl script '/home/max/work/MaxConvNet/HLS/model/solution1/csim.tcl'
+Sourcing Tcl script '/home/max/work/MaxConvNet/HLS/model/solution1/csynth.tcl'
 INFO: [HLS 200-10] Opening project '/home/max/work/MaxConvNet/HLS/model'.
+INFO: [HLS 200-10] Adding design file 'softmax.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'relu.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'pooling.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'linear.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'conv_net.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'conv_net.h' to the project
+INFO: [HLS 200-10] Adding design file 'conv.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'biases.h' to the project
+INFO: [HLS 200-10] Adding design file 'weights.h' to the project
+INFO: [HLS 200-10] Adding test bench file 'conv_net_tb.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'horse_b.txt' to the project
+INFO: [HLS 200-10] Adding test bench file 'horse_g.txt' to the project
+INFO: [HLS 200-10] Adding test bench file 'horse_r.txt' to the project
 INFO: [HLS 200-10] Opening solution '/home/max/work/MaxConvNet/HLS/model/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
-INFO: [SIM 211-2] *************** CSIM start ***************
-INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
-   Compiling ../../../../conv_net_tb.cpp in debug mode
-   Compiling ../../../../softmax.cpp in debug mode
-   Compiling ../../../../relu.cpp in debug mode
-   Compiling ../../../../pooling.cpp in debug mode
-   Compiling ../../../../linear.cpp in debug mode
-   Compiling ../../../../conv_net.cpp in debug mode
-   Compiling ../../../../conv.cpp in debug mode
-   Generating csim.exe
-INFO: [SIM 211-1] CSim file generation done with 0 errors.
-INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'conv.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv_net.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'linear.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'pooling.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'relu.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'softmax.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 964.066 ; gain = 523.090 ; free physical = 10195 ; free virtual = 14459
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 964.066 ; gain = 523.090 ; free physical = 10195 ; free virtual = 14459
+INFO: [HLS 200-10] Starting code transformations ...
+ERROR: [SYNCHK 200-79] Cannot find the top function 'MaxConvNet' in the design. Possible causes are: (1) the top function name is misspelled; (2) the top function is nonexistent or declared as static.
+ERROR: [HLS 200-70] Synthesizability check failed.
+command 'ap_source' returned error code
+    while executing
+"source /home/max/work/MaxConvNet/HLS/model/solution1/csynth.tcl"
+    invoked from within
+"hls::main /home/max/work/MaxConvNet/HLS/model/solution1/csynth.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"

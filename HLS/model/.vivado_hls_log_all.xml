@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Synthesizability check failed.&#xA;command 'ap_source' returned error code&#xA;    while executing&#xA;&quot;source /home/max/work/MaxConvNet/HLS/model/solution1/csynth.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/max/work/MaxConvNet/HLS/model/solution1/csynth.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="model" solutionName="solution1" date="2020-08-30T13:23:45.910+0900"/>
+        <logs message="ERROR: [SYNCHK 200-79] Cannot find the top function 'MaxConvNet' in the design. Possible causes are: (1) the top function name is misspelled; (2) the top function is nonexistent or declared as static." projectName="model" solutionName="solution1" date="2020-08-30T13:23:45.875+0900"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
