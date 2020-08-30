@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="softmax.cpp" path="/home/max/work/MaxConvNet/HLS/softmax.cpp"/>
+    <originFiles name="relu.cpp" path="/home/max/work/MaxConvNet/HLS/relu.cpp"/>
+    <originFiles name="pooling.cpp" path="/home/max/work/MaxConvNet/HLS/pooling.cpp"/>
+    <originFiles name="linear.cpp" path="/home/max/work/MaxConvNet/HLS/linear.cpp"/>
+    <originFiles name="conv_net.cpp" path="/home/max/work/MaxConvNet/HLS/conv_net.cpp"/>
+    <originFiles name="conv_net.h" path="/home/max/work/MaxConvNet/HLS/conv_net.h"/>
+    <originFiles name="conv.cpp" path="/home/max/work/MaxConvNet/HLS/conv.cpp"/>
+    <originFiles name="biases.h" path="/home/max/work/MaxConvNet/HLS/biases.h"/>
+    <originFiles name="weights.h" path="/home/max/work/MaxConvNet/HLS/weights.h"/>
+  </source>
+  <testbench>
+    <originFiles name="conv_net_tb.cpp" path="/home/max/work/MaxConvNet/HLS/conv_net_tb.cpp"/>
+    <originFiles name="horse_b.txt" path="/home/max/work/MaxConvNet/HLS/horse_b.txt"/>
+    <originFiles name="horse_g.txt" path="/home/max/work/MaxConvNet/HLS/horse_g.txt"/>
+    <originFiles name="horse_r.txt" path="/home/max/work/MaxConvNet/HLS/horse_r.txt"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

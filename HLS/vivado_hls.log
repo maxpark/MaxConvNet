@@ -1,0 +1,21 @@
+INFO: [HLS 200-10] Running '/opt/xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'max' on host 'max-ubuntu' (Linux_x86_64 version 5.3.0-40-generic) on Sun Aug 30 13:11:34 KST 2020
+INFO: [HLS 200-10] On os Ubuntu 18.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/max/work/MaxConvNet/HLS'
+Sourcing Tcl script '/home/max/work/MaxConvNet/HLS/model/solution1/csim.tcl'
+INFO: [HLS 200-10] Opening project '/home/max/work/MaxConvNet/HLS/model'.
+INFO: [HLS 200-10] Opening solution '/home/max/work/MaxConvNet/HLS/model/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../conv_net_tb.cpp in debug mode
+   Compiling ../../../../softmax.cpp in debug mode
+   Compiling ../../../../relu.cpp in debug mode
+   Compiling ../../../../pooling.cpp in debug mode
+   Compiling ../../../../linear.cpp in debug mode
+   Compiling ../../../../conv_net.cpp in debug mode
+   Compiling ../../../../conv.cpp in debug mode
+   Generating csim.exe
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

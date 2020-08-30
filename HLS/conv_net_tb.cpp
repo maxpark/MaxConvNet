@@ -23,9 +23,9 @@ int main (){
 	FILE *fpr;
 	DTYPE out_t[1];
 	//DTYPE  test[1];
-	fpb = fopen("tb_image/horse_b.txt", "r");
-	fpg = fopen("tb_image/horse_g.txt", "r");
-	fpr = fopen("tb_image/horse_r.txt", "r");
+	fpb = fopen("horse_b.txt", "r");
+	fpg = fopen("horse_g.txt", "r");
+	fpr = fopen("horse_r.txt", "r");
     for(b=0; b <32*32; b++) {
         fscanf(fpb, "%d\n", &tempb);
         inb[b] = tempb;
