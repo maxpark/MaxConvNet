@@ -12,8 +12,6 @@ https://github.com/rjkris/cifar10-HLS
   ```
 
 
-## RTL
-  - make .bit file
   ```
   (edit  /FPGA/RTL/script.tcl)
    -> em.avnet.com:ultra96v1:part0:1.2
@@ -30,4 +28,4 @@ https://github.com/rjkris/cifar10-HLS
     
   ```
   
-come from .33ffd
+come from .ddkdkdkd33ffd
