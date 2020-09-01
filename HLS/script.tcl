@@ -1,6 +1,7 @@
 ############################################################
 ## This file is generated automatically by Vivado HLS.
 ############################################################
+
 open_project model
 set_top MaxConvNet
 
