@@ -24,6 +24,7 @@ open_solution "solution1"
 set_part {xczu3eg-sbva484-1-e} -tool vivado
 create_clock -period 10 -name default
 
+
 ## C simulation
 csim_design
 
@@ -37,5 +38,7 @@ csynth_design
 
 ## export synthesized Verilog code
 export_design -format ip_catalog
+
+#-
 
 exit
