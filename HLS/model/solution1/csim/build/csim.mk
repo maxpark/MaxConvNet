@@ -22,7 +22,7 @@ HLS_SOURCES = ../../../../conv_net_tb.cpp ../../../../softmax.cpp ../../../../re
 
 TARGET := csim.exe
 
-AUTOPILOT_ROOT := /opt/xilinx/Vivado/2019.2
+AUTOPILOT_ROOT := /opt/Xilinx/Vivado/2019.2
 AUTOPILOT_MACH := lnx64
 ifdef AP_GCC_M32
   AUTOPILOT_MACH := Linux_x86
@@ -30,7 +30,7 @@ ifdef AP_GCC_M32
 endif
 IFLAG += -fPIC
 ifndef AP_GCC_PATH
-  AP_GCC_PATH := /opt/xilinx/Vivado/2019.2/tps/lnx64/gcc-6.2.0/bin
+  AP_GCC_PATH := /opt/Xilinx/Vivado/2019.2/tps/lnx64/gcc-6.2.0/bin
 endif
 AUTOPILOT_TOOL := ${AUTOPILOT_ROOT}/${AUTOPILOT_MACH}/tools
 AP_CLANG_PATH := ${AUTOPILOT_TOOL}/clang-3.9/bin

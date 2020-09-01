@@ -12,11 +12,11 @@ const uint8_t IMG_CHANNELS = 3;
 const uint8_t STRIDE = 1;
 
 // conv1
-const uint8_t C1_N_CHAN = 3;//ÊäÈëÍ¨µÀÊý
-const uint8_t C1_X_DMNIN = 32;//Í¼Æ¬´óÐ¡
-const uint8_t C1_W_DMNIN = 5;//5*5¾í»ýºË
+const uint8_t C1_N_CHAN = 3;//ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½
+const uint8_t C1_X_DMNIN = 32;//Í¼Æ¬ï¿½ï¿½Ð¡
+const uint8_t C1_W_DMNIN = 5;//5*5ï¿½ï¿½ï¿½ï¿½ï¿½
 const uint8_t C1_OUT_DMNIN = 28;
-const uint8_t C1_N_FILTERS = 32;//¾í»ý²ãfilter
+const uint8_t C1_N_FILTERS = 32;//ï¿½ï¿½ï¿½ï¿½ï¿½filter
 
 // relu1
 const uint16_t A1_ROWS = 28;
@@ -38,11 +38,11 @@ const uint8_t P1_SIZE = 24;
 const uint8_t P1_DOWNSIZE = 12;
 
 // conv3
-const uint8_t C3_N_CHAN = 32;//ÊäÈëÍ¨µÀÊý
-const uint8_t C3_X_DMNIN = 12;//Í¼Æ¬´óÐ¡
-const uint8_t C3_W_DMNIN = 3;//5*5¾í»ýºË
+const uint8_t C3_N_CHAN = 32;//ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½
+const uint8_t C3_X_DMNIN = 12;//Í¼Æ¬ï¿½ï¿½Ð¡
+const uint8_t C3_W_DMNIN = 3;//5*5ï¿½ï¿½ï¿½ï¿½ï¿½
 const uint8_t C3_OUT_DMNIN = 10;
-const uint8_t C3_N_FILTERS = 32;//¾í»ý²ãfilter
+const uint8_t C3_N_FILTERS = 32;//ï¿½ï¿½ï¿½ï¿½ï¿½filter
 
 // relu3
 const uint16_t A3_ROWS = 10;
@@ -85,7 +85,7 @@ const uint8_t SFMX_SIZE = 10;
 
 int CNN(int in_r);
 
-void xillybus_wrapper(uint8_t *in_b, uint8_t *in_g, uint8_t *in_r,DTYPE out_t[1]);
+void MaxConvNet(uint8_t *in_b, uint8_t *in_g, uint8_t *in_r,DTYPE out_t[1]);
 
 DTYPE maxFour(DTYPE a, DTYPE b, DTYPE c, DTYPE d);
 uint16_t averFour(uint16_t a, uint16_t b, uint16_t c, uint16_t d);

@@ -5,7 +5,7 @@
 #include <string.h>
 
 
-void xillybus_wrapper(uint8_t *in_b, uint8_t *in_g, uint8_t *in_r,DTYPE *out_t) {
+void MaxConvNet(uint8_t *in_b, uint8_t *in_g, uint8_t *in_r,DTYPE *out_t) {
 #pragma HLS INTERFACE s_axilite register port=in_b bundle=ctl
 #pragma HLS INTERFACE m_axi depth=512 port=in_b offset=slave bundle=b
 #pragma HLS INTERFACE s_axilite register port=in_g bundle=ctl

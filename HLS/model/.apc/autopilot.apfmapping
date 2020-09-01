@@ -13,6 +13,9 @@
   </source>
   <testbench>
     <originFiles name="conv_net_tb.cpp" path="/home/max/work/MaxConvNet/HLS/conv_net_tb.cpp"/>
+    <originFiles name="horse_g.txt" path="/home/max/work/MaxConvNet/HLS/horse_g.txt"/>
+    <originFiles name="horse_b.txt" path="/home/max/work/MaxConvNet/HLS/horse_b.txt"/>
+    <originFiles name="horse_r.txt" path="/home/max/work/MaxConvNet/HLS/horse_r.txt"/>
     <originFiles name="horse_b.txt" path="/home/max/work/MaxConvNet/HLS/horse_b.txt"/>
     <originFiles name="horse_g.txt" path="/home/max/work/MaxConvNet/HLS/horse_g.txt"/>
     <originFiles name="horse_r.txt" path="/home/max/work/MaxConvNet/HLS/horse_r.txt"/>

@@ -1,12 +1,5 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
-   Compiling ../../../../conv_net_tb.cpp in debug mode
-   Compiling ../../../../softmax.cpp in debug mode
-   Compiling ../../../../relu.cpp in debug mode
-   Compiling ../../../../pooling.cpp in debug mode
-   Compiling ../../../../linear.cpp in debug mode
-   Compiling ../../../../conv_net.cpp in debug mode
-   Compiling ../../../../conv.cpp in debug mode
-   Generating csim.exe
+make: 'csim.exe' is up to date.
 INFO: [SIM 1] CSim file generation done with 0 errors.
 INFO: [SIM 3] *************** CSIM finish ***************

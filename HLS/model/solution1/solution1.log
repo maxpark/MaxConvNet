@@ -26,3 +26,340 @@ Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2.1 (64-bit)
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'softmax.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'relu.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'pooling.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'linear.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv_net.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 961.059 ; gain = 523.090 ; free physical = 55475 ; free virtual = 61592
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 961.059 ; gain = 523.090 ; free physical = 55475 ; free virtual = 61592
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 961.059 ; gain = 523.090 ; free physical = 55419 ; free virtual = 61537
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'maxFour' into 'pooling_p1' (pooling.cpp:21) automatically.
+INFO: [XFORM 203-602] Inlining function 'maxFour' into 'pooling_p2' (pooling.cpp:41) automatically.
+INFO: [XFORM 203-602] Inlining function 'vec_mat_mul_f1' into 'predict' (conv_net.cpp:105) automatically.
+INFO: [XFORM 203-602] Inlining function 'relu_a5' into 'predict' (conv_net.cpp:106) automatically.
+INFO: [XFORM 203-602] Inlining function 'vec_mat_mul_f2' into 'predict' (conv_net.cpp:108) automatically.
+INFO: [XFORM 203-602] Inlining function 'relu_a6' into 'predict' (conv_net.cpp:109) automatically.
+INFO: [XFORM 203-602] Inlining function 'vec_mat_mul_f3' into 'predict' (conv_net.cpp:111) automatically.
+INFO: [XFORM 203-602] Inlining function 'softmax' into 'predict' (conv_net.cpp:113) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 961.059 ; gain = 523.090 ; free physical = 55413 ; free virtual = 61532
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1.1' (pooling.cpp:39) in function 'pooling_p2' completely with a factor of 4.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1.1' (pooling.cpp:19) in function 'pooling_p1' completely with a factor of 12.
+INFO: [XFORM 203-102] Partitioning array 'p' (conv_net.cpp:22) automatically.
+INFO: [XFORM 203-602] Inlining function 'maxFour' into 'pooling_p1' (pooling.cpp:21) automatically.
+INFO: [XFORM 203-602] Inlining function 'maxFour' into 'pooling_p2' (pooling.cpp:41) automatically.
+INFO: [XFORM 203-602] Inlining function 'vec_mat_mul_f1' into 'predict' (conv_net.cpp:105) automatically.
+INFO: [XFORM 203-602] Inlining function 'relu_a5' into 'predict' (conv_net.cpp:106) automatically.
+INFO: [XFORM 203-602] Inlining function 'vec_mat_mul_f2' into 'predict' (conv_net.cpp:108) automatically.
+INFO: [XFORM 203-602] Inlining function 'relu_a6' into 'predict' (conv_net.cpp:109) automatically.
+INFO: [XFORM 203-602] Inlining function 'vec_mat_mul_f3' into 'predict' (conv_net.cpp:111) automatically.
+INFO: [XFORM 203-602] Inlining function 'softmax' into 'predict' (conv_net.cpp:113) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (relu.cpp:53:51) to (relu.cpp:53:45) in function 'relu_a4'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (relu.cpp:39:51) to (relu.cpp:39:45) in function 'relu_a3'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (relu.cpp:25:51) to (relu.cpp:25:45) in function 'relu_a2'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (relu.cpp:11:51) to (relu.cpp:11:45) in function 'relu_a1'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (relu.cpp:64:44) to (relu.cpp:64:38) in function 'predict'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (relu.cpp:73:44) to (relu.cpp:73:38) in function 'predict'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:01:00 ; elapsed = 00:01:01 . Memory (MB): peak = 1033.059 ; gain = 595.090 ; free physical = 55395 ; free virtual = 61517
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1' (conv.cpp:107:14) in function 'convolution_c4'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (conv.cpp:106:10) in function 'convolution_c4'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1' (conv.cpp:76:14) in function 'convolution_c3'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (conv.cpp:75:10) in function 'convolution_c3'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1' (conv.cpp:45:14) in function 'convolution_c2'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (conv.cpp:44:10) in function 'convolution_c2'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1.1' (conv.cpp:13:18) in function 'convolution_c1'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (conv.cpp:12:10) in function 'convolution_c1'.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1' (conv_net.cpp:24:13) in function 'MaxConvNet' : 
+
+more than one sub loop.
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 1024 on port 'b' (conv_net.cpp:28:9). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 1024 on port 'g' (conv_net.cpp:40:9). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 1024 on port 'r1' (conv_net.cpp:51:9). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-472] Inferring partial write operation for 'in_b_buffer' (conv_net.cpp:28:9)
+INFO: [HLS 200-472] Inferring partial write operation for 'img' (conv_net.cpp:32:10)
+INFO: [HLS 200-472] Inferring partial write operation for 'in_b_buffer' (conv_net.cpp:40:9)
+INFO: [HLS 200-472] Inferring partial write operation for 'img' (conv_net.cpp:44:10)
+INFO: [HLS 200-472] Inferring partial write operation for 'in_b_buffer' (conv_net.cpp:51:9)
+INFO: [HLS 200-472] Inferring partial write operation for 'img' (conv_net.cpp:55:10)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (relu.cpp:54:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (relu.cpp:40:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (relu.cpp:26:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (relu.cpp:12:8)
+INFO: [HLS 200-472] Inferring partial write operation for 'layer12_out' (linear.cpp:32:13)
+INFO: [HLS 200-472] Inferring partial write operation for 'layer13_out' (relu.cpp:65:9)
+INFO: [HLS 200-472] Inferring partial write operation for 'layer14_out' (linear.cpp:48:13)
+INFO: [HLS 200-472] Inferring partial write operation for 'layer15_out' (relu.cpp:74:9)
+INFO: [HLS 200-472] Inferring partial write operation for 'layer16_out' (linear.cpp:64:13)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (pooling.cpp:41:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (pooling.cpp:21:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'OUT' (linear.cpp:14:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (conv.cpp:110:2)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (conv.cpp:120:26)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (conv.cpp:79:2)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (conv.cpp:89:26)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (conv.cpp:48:2)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (conv.cpp:58:26)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (conv.cpp:16:2)
+INFO: [HLS 200-472] Inferring partial write operation for 'out' (conv.cpp:26:26)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:09 ; elapsed = 00:01:10 . Memory (MB): peak = 1073.059 ; gain = 635.090 ; free physical = 55291 ; free virtual = 61414
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'MaxConvNet' ...
+WARNING: [SYN 201-107] Renaming port name 'MaxConvNet/out' to 'MaxConvNet/out_r' to avoid the conflict with HDL keywords or other object names.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'convolution_c112' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 70.31 seconds; current allocated memory: 281.793 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.77 seconds; current allocated memory: 282.302 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_a1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.82 seconds; current allocated memory: 282.464 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.22 seconds; current allocated memory: 282.638 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'convolution_c2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.28 seconds; current allocated memory: 282.987 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.75 seconds; current allocated memory: 283.485 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_a2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.78 seconds; current allocated memory: 283.677 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.21 seconds; current allocated memory: 283.846 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pooling_p1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.4 seconds; current allocated memory: 285.185 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 3.24 seconds; current allocated memory: 287.122 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'convolution_c3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 3.22 seconds; current allocated memory: 287.596 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.73 seconds; current allocated memory: 288.136 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_a3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.75 seconds; current allocated memory: 288.299 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.21 seconds; current allocated memory: 288.469 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'convolution_c4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.26 seconds; current allocated memory: 288.811 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.68 seconds; current allocated memory: 289.296 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_a4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.72 seconds; current allocated memory: 289.453 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.2 seconds; current allocated memory: 289.614 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pooling_p2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.26 seconds; current allocated memory: 290.096 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1 seconds; current allocated memory: 290.751 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'flatten' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 1.02 seconds; current allocated memory: 290.947 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.22 seconds; current allocated memory: 291.127 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'predict' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.29 seconds; current allocated memory: 291.629 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1.72 seconds; current allocated memory: 292.958 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MaxConvNet' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'memcpy..in_b'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-61] Pipelining loop 'memcpy..in_g'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-61] Pipelining loop 'memcpy..in_r'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 1.51 seconds; current allocated memory: 293.877 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1.33 seconds; current allocated memory: 294.858 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'convolution_c112' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'convolution_c112_biases_C1' to 'convolution_c112_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'convolution_c112_weights_C1' to 'convolution_c112_cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MaxConvNet_mac_muladd_12s_8ns_32ns_32_1_1' to 'MaxConvNet_mac_mudEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'MaxConvNet_mac_mudEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution_c112'.
+INFO: [HLS 200-111]  Elapsed time: 1.56 seconds; current allocated memory: 296.177 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu_a1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_a1'.
+INFO: [HLS 200-111]  Elapsed time: 0.85 seconds; current allocated memory: 298.617 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'convolution_c2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'convolution_c2_biases_C2' to 'convolution_c2_bieOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'convolution_c2_weights_C2' to 'convolution_c2_wefYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MaxConvNet_mac_muladd_14s_22ns_32ns_32_1_1' to 'MaxConvNet_mac_mug8j' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'MaxConvNet_mac_mug8j': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution_c2'.
+INFO: [HLS 200-111]  Elapsed time: 0.28 seconds; current allocated memory: 300.186 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu_a2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_a2'.
+INFO: [HLS 200-111]  Elapsed time: 0.86 seconds; current allocated memory: 302.637 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pooling_p1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pooling_p1'.
+INFO: [HLS 200-111]  Elapsed time: 0.35 seconds; current allocated memory: 306.040 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'convolution_c3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'convolution_c3_biases_C3' to 'convolution_c3_bihbi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'convolution_c3_weights_C3' to 'convolution_c3_weibs' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'MaxConvNet_mac_muladd_13s_22ns_32ns_32_1_1' to 'MaxConvNet_mac_mujbC' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'MaxConvNet_mac_mujbC': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution_c3'.
+INFO: [HLS 200-111]  Elapsed time: 3.54 seconds; current allocated memory: 314.822 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu_a3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_a3'.
+INFO: [HLS 200-111]  Elapsed time: 0.93 seconds; current allocated memory: 317.302 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'convolution_c4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'convolution_c4_biases_C4' to 'convolution_c4_bikbM' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'convolution_c4_weights_C4' to 'convolution_c4_welbW' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'MaxConvNet_mac_mujbC': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution_c4'.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================

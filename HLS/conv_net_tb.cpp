@@ -45,7 +45,7 @@ int main (){
     in_r=inr;
     in_g=ing;
 
-    xillybus_wrapper(in_b,in_g,in_r,out_t);
+    MaxConvNet(in_b,in_g,in_r,out_t);
     printf ("%d",out_t[0]);
 
 

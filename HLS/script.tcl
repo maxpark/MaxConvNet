@@ -14,9 +14,9 @@ add_files pooling.cpp
 add_files relu.cpp
 add_files softmax.cpp
 
-add_files -tb ./tb_image/horse_r.txt
-add_files -tb ./tb_image/horse_g.txt
-add_files -tb ./tb_image/horse_b.txt
+add_files -tb ./horse_r.txt
+add_files -tb ./horse_b.txt
+add_files -tb ./horse_g.txt
 
 add_files -tb conv_net_tb.cpp
 

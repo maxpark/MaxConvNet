@@ -10,8 +10,8 @@
 
 
 
-# 1 "/opt/xilinx/Vivado/2019.2/common/technology/autopilot/etc/autopilot_ssdm_op.h" 1
-# 157 "/opt/xilinx/Vivado/2019.2/common/technology/autopilot/etc/autopilot_ssdm_op.h"
+# 1 "/opt/Xilinx/Vivado/2019.2/common/technology/autopilot/etc/autopilot_ssdm_op.h" 1
+# 157 "/opt/Xilinx/Vivado/2019.2/common/technology/autopilot/etc/autopilot_ssdm_op.h"
 extern "C" {
 
 
@@ -155,176 +155,60 @@ extern "C" {
 
 
 
-# 1 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdint.h" 1 3
-# 33 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdint.h" 3
+# 1 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdint.h" 1 3
+# 33 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdint.h" 3
 # 1 "/usr/include/stdint.h" 1 3 4
-# 26 "/usr/include/stdint.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
-# 33 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 3 4
+# 25 "/usr/include/stdint.h" 3 4
 # 1 "/usr/include/features.h" 1 3 4
-# 402 "/usr/include/features.h" 3 4
+# 345 "/usr/include/features.h" 3 4
 # 1 "/usr/include/stdc-predef.h" 1 3 4
-# 403 "/usr/include/features.h" 2 3 4
-# 424 "/usr/include/features.h" 3 4
+# 346 "/usr/include/features.h" 2 3 4
+# 367 "/usr/include/features.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 1 3 4
-# 427 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
+# 410 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 428 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
-# 429 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
-# 425 "/usr/include/features.h" 2 3 4
-# 448 "/usr/include/features.h" 3 4
+# 411 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 368 "/usr/include/features.h" 2 3 4
+# 391 "/usr/include/features.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 1 3 4
 # 10 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" 1 3 4
 # 11 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 2 3 4
-# 449 "/usr/include/features.h" 2 3 4
-# 34 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 2 3 4
-# 27 "/usr/include/stdint.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types.h" 1 3 4
-# 27 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 28 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
-
-
-typedef unsigned char __u_char;
-typedef unsigned short int __u_short;
-typedef unsigned int __u_int;
-typedef unsigned long int __u_long;
-
-
-typedef signed char __int8_t;
-typedef unsigned char __uint8_t;
-typedef signed short int __int16_t;
-typedef unsigned short int __uint16_t;
-typedef signed int __int32_t;
-typedef unsigned int __uint32_t;
-
-typedef signed long int __int64_t;
-typedef unsigned long int __uint64_t;
-
-
-
-
-
-
-
-typedef long int __quad_t;
-typedef unsigned long int __u_quad_t;
-
-
-
-
-
-
-
-typedef long int __intmax_t;
-typedef unsigned long int __uintmax_t;
-# 130 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/typesizes.h" 1 3 4
-# 131 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
-
-
-typedef unsigned long int __dev_t;
-typedef unsigned int __uid_t;
-typedef unsigned int __gid_t;
-typedef unsigned long int __ino_t;
-typedef unsigned long int __ino64_t;
-typedef unsigned int __mode_t;
-typedef unsigned long int __nlink_t;
-typedef long int __off_t;
-typedef long int __off64_t;
-typedef int __pid_t;
-typedef struct { int __val[2]; } __fsid_t;
-typedef long int __clock_t;
-typedef unsigned long int __rlim_t;
-typedef unsigned long int __rlim64_t;
-typedef unsigned int __id_t;
-typedef long int __time_t;
-typedef unsigned int __useconds_t;
-typedef long int __suseconds_t;
-
-typedef int __daddr_t;
-typedef int __key_t;
-
-
-typedef int __clockid_t;
-
-
-typedef void * __timer_t;
-
-
-typedef long int __blksize_t;
-
-
-
-
-typedef long int __blkcnt_t;
-typedef long int __blkcnt64_t;
-
-
-typedef unsigned long int __fsblkcnt_t;
-typedef unsigned long int __fsblkcnt64_t;
-
-
-typedef unsigned long int __fsfilcnt_t;
-typedef unsigned long int __fsfilcnt64_t;
-
-
-typedef long int __fsword_t;
-
-typedef long int __ssize_t;
-
-
-typedef long int __syscall_slong_t;
-
-typedef unsigned long int __syscall_ulong_t;
-
-
-
-typedef __off64_t __loff_t;
-typedef char *__caddr_t;
-
-
-typedef long int __intptr_t;
-
-
-typedef unsigned int __socklen_t;
-
-
-
-
-typedef int __sig_atomic_t;
-# 28 "/usr/include/stdint.h" 2 3 4
+# 392 "/usr/include/features.h" 2 3 4
+# 26 "/usr/include/stdint.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wchar.h" 1 3 4
-# 29 "/usr/include/stdint.h" 2 3 4
+# 27 "/usr/include/stdint.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 30 "/usr/include/stdint.h" 2 3 4
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/stdint-intn.h" 1 3 4
-# 24 "/usr/include/x86_64-linux-gnu/bits/stdint-intn.h" 3 4
-typedef __int8_t int8_t;
-typedef __int16_t int16_t;
-typedef __int32_t int32_t;
-typedef __int64_t int64_t;
-# 35 "/usr/include/stdint.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h" 1 3 4
-# 24 "/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h" 3 4
-typedef __uint8_t uint8_t;
-typedef __uint16_t uint16_t;
-typedef __uint32_t uint32_t;
-typedef __uint64_t uint64_t;
-# 38 "/usr/include/stdint.h" 2 3 4
+# 28 "/usr/include/stdint.h" 2 3 4
 
 
 
 
 
+
+
+
+typedef signed char int8_t;
+typedef short int int16_t;
+typedef int int32_t;
+
+typedef long int int64_t;
+
+
+
+
+
+
+
+typedef unsigned char uint8_t;
+typedef unsigned short int uint16_t;
+
+typedef unsigned int uint32_t;
+
+
+
+typedef unsigned long int uint64_t;
+# 65 "/usr/include/stdint.h" 3 4
 typedef signed char int_least8_t;
 typedef short int int_least16_t;
 typedef int int_least32_t;
@@ -341,27 +225,27 @@ typedef unsigned short int uint_least16_t;
 typedef unsigned int uint_least32_t;
 
 typedef unsigned long int uint_least64_t;
-# 68 "/usr/include/stdint.h" 3 4
+# 90 "/usr/include/stdint.h" 3 4
 typedef signed char int_fast8_t;
 
 typedef long int int_fast16_t;
 typedef long int int_fast32_t;
 typedef long int int_fast64_t;
-# 81 "/usr/include/stdint.h" 3 4
+# 103 "/usr/include/stdint.h" 3 4
 typedef unsigned char uint_fast8_t;
 
 typedef unsigned long int uint_fast16_t;
 typedef unsigned long int uint_fast32_t;
 typedef unsigned long int uint_fast64_t;
-# 97 "/usr/include/stdint.h" 3 4
+# 119 "/usr/include/stdint.h" 3 4
 typedef long int intptr_t;
 
 
 typedef unsigned long int uintptr_t;
-# 111 "/usr/include/stdint.h" 3 4
-typedef __intmax_t intmax_t;
-typedef __uintmax_t uintmax_t;
-# 34 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdint.h" 2 3
+# 134 "/usr/include/stdint.h" 3 4
+typedef long int intmax_t;
+typedef unsigned long int uintmax_t;
+# 34 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdint.h" 2 3
 # 6 "./conv_net.h" 2
 
 typedef int32_t DTYPE;
@@ -445,7 +329,7 @@ const uint8_t SFMX_SIZE = 10;
 
 int CNN(int in_r);
 
-void xillybus_wrapper(uint8_t *in_b, uint8_t *in_g, uint8_t *in_r,DTYPE out_t[1]);
+void MaxConvNet(uint8_t *in_b, uint8_t *in_g, uint8_t *in_r,DTYPE out_t[1]);
 
 DTYPE maxFour(DTYPE a, DTYPE b, DTYPE c, DTYPE d);
 uint16_t averFour(uint16_t a, uint16_t b, uint16_t c, uint16_t d);
@@ -581,17 +465,14 @@ const DTYPE biases_F2[F2_ROWS] = {-188,1740,149,-136,165,-228,-707,-830,-582,182
 const DTYPE biases_F3[F3_ROWS] = {124,-1030,79,570,122,304,54,-98,-121,-261};
 # 4 "conv_net.cpp" 2
 # 1 "/usr/include/stdio.h" 1 3 4
-# 27 "/usr/include/stdio.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
-# 28 "/usr/include/stdio.h" 2 3 4
-
+# 29 "/usr/include/stdio.h" 3 4
 extern "C" {
 
 
 
 
-# 1 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stddef.h" 1 3 4
-# 31 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stddef.h" 3 4
+# 1 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stddef.h" 1 3 4
+# 31 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stddef.h" 3 4
 typedef __typeof__(((int*)0)-((int*)0)) ptrdiff_t;
 
 
@@ -599,49 +480,150 @@ typedef __typeof__(((int*)0)-((int*)0)) ptrdiff_t;
 typedef __typeof__(sizeof(int)) size_t;
 # 34 "/usr/include/stdio.h" 2 3 4
 
+# 1 "/usr/include/x86_64-linux-gnu/bits/types.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 28 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
 
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__FILE.h" 1 3 4
+
+typedef unsigned char __u_char;
+typedef unsigned short int __u_short;
+typedef unsigned int __u_int;
+typedef unsigned long int __u_long;
+
+
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef signed short int __int16_t;
+typedef unsigned short int __uint16_t;
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+
+typedef signed long int __int64_t;
+typedef unsigned long int __uint64_t;
+
+
+
+
+
+
+
+typedef long int __quad_t;
+typedef unsigned long int __u_quad_t;
+# 121 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/typesizes.h" 1 3 4
+# 122 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+
+
+typedef unsigned long int __dev_t;
+typedef unsigned int __uid_t;
+typedef unsigned int __gid_t;
+typedef unsigned long int __ino_t;
+typedef unsigned long int __ino64_t;
+typedef unsigned int __mode_t;
+typedef unsigned long int __nlink_t;
+typedef long int __off_t;
+typedef long int __off64_t;
+typedef int __pid_t;
+typedef struct { int __val[2]; } __fsid_t;
+typedef long int __clock_t;
+typedef unsigned long int __rlim_t;
+typedef unsigned long int __rlim64_t;
+typedef unsigned int __id_t;
+typedef long int __time_t;
+typedef unsigned int __useconds_t;
+typedef long int __suseconds_t;
+
+typedef int __daddr_t;
+typedef int __key_t;
+
+
+typedef int __clockid_t;
+
+
+typedef void * __timer_t;
+
+
+typedef long int __blksize_t;
+
+
+
+
+typedef long int __blkcnt_t;
+typedef long int __blkcnt64_t;
+
+
+typedef unsigned long int __fsblkcnt_t;
+typedef unsigned long int __fsblkcnt64_t;
+
+
+typedef unsigned long int __fsfilcnt_t;
+typedef unsigned long int __fsfilcnt64_t;
+
+
+typedef long int __fsword_t;
+
+typedef long int __ssize_t;
+
+
+typedef long int __syscall_slong_t;
+
+typedef unsigned long int __syscall_ulong_t;
+
+
+
+typedef __off64_t __loff_t;
+typedef __quad_t *__qaddr_t;
+typedef char *__caddr_t;
+
+
+typedef long int __intptr_t;
+
+
+typedef unsigned int __socklen_t;
+# 36 "/usr/include/stdio.h" 2 3 4
+
+
+
+
+
 
 
 
 struct _IO_FILE;
-typedef struct _IO_FILE __FILE;
-# 37 "/usr/include/stdio.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/FILE.h" 1 3 4
 
-
-
-struct _IO_FILE;
 
 
 typedef struct _IO_FILE FILE;
-# 38 "/usr/include/stdio.h" 2 3 4
+# 64 "/usr/include/stdio.h" 3 4
+typedef struct _IO_FILE __FILE;
+# 74 "/usr/include/stdio.h" 3 4
+# 1 "/usr/include/libio.h" 1 3 4
+# 31 "/usr/include/libio.h" 3 4
+# 1 "/usr/include/_G_config.h" 1 3 4
+# 15 "/usr/include/_G_config.h" 3 4
+# 1 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stddef.h" 1 3 4
+# 16 "/usr/include/_G_config.h" 2 3 4
 
 
 
-# 1 "/usr/include/x86_64-linux-gnu/bits/libio.h" 1 3 4
-# 35 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/_G_config.h" 1 3 4
-# 19 "/usr/include/x86_64-linux-gnu/bits/_G_config.h" 3 4
-# 1 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stddef.h" 1 3 4
-# 20 "/usr/include/x86_64-linux-gnu/bits/_G_config.h" 2 3 4
 
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 1 3 4
-# 13 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 3 4
+# 1 "/usr/include/wchar.h" 1 3 4
+# 82 "/usr/include/wchar.h" 3 4
 typedef struct
 {
   int __count;
   union
   {
+
     unsigned int __wch;
+
+
+
     char __wchb[4];
   } __value;
 } __mbstate_t;
-# 22 "/usr/include/x86_64-linux-gnu/bits/_G_config.h" 2 3 4
-
-
-
-
+# 21 "/usr/include/_G_config.h" 2 3 4
 typedef struct
 {
   __off_t __pos;
@@ -652,16 +634,17 @@ typedef struct
   __off64_t __pos;
   __mbstate_t __state;
 } _G_fpos64_t;
-# 36 "/usr/include/x86_64-linux-gnu/bits/libio.h" 2 3 4
-# 53 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-# 1 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdarg.h" 1 3 4
-# 30 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdarg.h" 3 4
+# 32 "/usr/include/libio.h" 2 3 4
+# 49 "/usr/include/libio.h" 3 4
+# 1 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdarg.h" 1 3 4
+# 30 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdarg.h" 3 4
 typedef __builtin_va_list va_list;
-# 48 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdarg.h" 3 4
+# 48 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
-# 54 "/usr/include/x86_64-linux-gnu/bits/libio.h" 2 3 4
-# 149 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
+# 50 "/usr/include/libio.h" 2 3 4
+# 144 "/usr/include/libio.h" 3 4
 struct _IO_jump_t; struct _IO_FILE;
+
 
 
 
@@ -679,7 +662,7 @@ struct _IO_marker {
 
 
   int _pos;
-# 177 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
+# 173 "/usr/include/libio.h" 3 4
 };
 
 
@@ -690,7 +673,7 @@ enum __codecvt_result
   __codecvt_error,
   __codecvt_noconv
 };
-# 245 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
+# 241 "/usr/include/libio.h" 3 4
 struct _IO_FILE {
   int _flags;
 
@@ -731,7 +714,7 @@ struct _IO_FILE {
 
 
   _IO_lock_t *_lock;
-# 293 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
+# 289 "/usr/include/libio.h" 3 4
   __off64_t _offset;
 
 
@@ -761,7 +744,7 @@ struct _IO_FILE_plus;
 extern struct _IO_FILE_plus _IO_2_1_stdin_;
 extern struct _IO_FILE_plus _IO_2_1_stdout_;
 extern struct _IO_FILE_plus _IO_2_1_stderr_;
-# 337 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
+# 333 "/usr/include/libio.h" 3 4
 typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);
 
 
@@ -817,7 +800,7 @@ extern "C" {
 extern int __underflow (_IO_FILE *);
 extern int __uflow (_IO_FILE *);
 extern int __overflow (_IO_FILE *, int);
-# 433 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
+# 429 "/usr/include/libio.h" 3 4
 extern int _IO_getc (_IO_FILE *__fp);
 extern int _IO_putc (int __c, _IO_FILE *__fp);
 extern int _IO_feof (_IO_FILE *__fp) throw ();
@@ -832,7 +815,7 @@ extern int _IO_peekc_locked (_IO_FILE *__fp);
 extern void _IO_flockfile (_IO_FILE *) throw ();
 extern void _IO_funlockfile (_IO_FILE *) throw ();
 extern int _IO_ftrylockfile (_IO_FILE *) throw ();
-# 462 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
+# 459 "/usr/include/libio.h" 3 4
 extern int _IO_vfscanf (_IO_FILE * __restrict, const char * __restrict,
    __gnuc_va_list, int *__restrict);
 extern int _IO_vfprintf (_IO_FILE *__restrict, const char *__restrict,
@@ -844,15 +827,15 @@ extern __off64_t _IO_seekoff (_IO_FILE *, __off64_t, int, int);
 extern __off64_t _IO_seekpos (_IO_FILE *, __off64_t, int);
 
 extern void _IO_free_backup_area (_IO_FILE *) throw ();
-# 524 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
+# 521 "/usr/include/libio.h" 3 4
 }
-# 42 "/usr/include/stdio.h" 2 3 4
+# 75 "/usr/include/stdio.h" 2 3 4
 
 
 
 
 typedef __gnuc_va_list va_list;
-# 57 "/usr/include/stdio.h" 3 4
+# 90 "/usr/include/stdio.h" 3 4
 typedef __off_t off_t;
 
 
@@ -865,9 +848,8 @@ typedef __off64_t off64_t;
 
 
 
-
-
 typedef __ssize_t ssize_t;
+
 
 
 
@@ -879,10 +861,11 @@ typedef _G_fpos_t fpos_t;
 
 
 
+
 typedef _G_fpos64_t fpos64_t;
-# 131 "/usr/include/stdio.h" 3 4
+# 164 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/stdio_lim.h" 1 3 4
-# 132 "/usr/include/stdio.h" 2 3 4
+# 165 "/usr/include/stdio.h" 2 3 4
 
 
 
@@ -895,23 +878,19 @@ extern struct _IO_FILE *stderr;
 
 
 
+
 extern int remove (const char *__filename) throw ();
 
 extern int rename (const char *__old, const char *__new) throw ();
 
 
 
+
 extern int renameat (int __oldfd, const char *__old, int __newfd,
        const char *__new) throw ();
-
-
-
-
-
-
-
+# 195 "/usr/include/stdio.h" 3 4
 extern FILE *tmpfile (void) ;
-# 169 "/usr/include/stdio.h" 3 4
+# 205 "/usr/include/stdio.h" 3 4
 extern FILE *tmpfile64 (void) ;
 
 
@@ -921,28 +900,23 @@ extern char *tmpnam (char *__s) throw () ;
 
 
 
+
 extern char *tmpnam_r (char *__s) throw () ;
-# 190 "/usr/include/stdio.h" 3 4
+# 227 "/usr/include/stdio.h" 3 4
 extern char *tempnam (const char *__dir, const char *__pfx)
      throw () __attribute__ ((__malloc__)) ;
-
-
-
-
-
-
-
+# 237 "/usr/include/stdio.h" 3 4
 extern int fclose (FILE *__stream);
 
 
 
 
 extern int fflush (FILE *__stream);
-# 213 "/usr/include/stdio.h" 3 4
+# 252 "/usr/include/stdio.h" 3 4
 extern int fflush_unlocked (FILE *__stream);
-# 223 "/usr/include/stdio.h" 3 4
+# 262 "/usr/include/stdio.h" 3 4
 extern int fcloseall (void);
-# 232 "/usr/include/stdio.h" 3 4
+# 272 "/usr/include/stdio.h" 3 4
 extern FILE *fopen (const char *__restrict __filename,
       const char *__restrict __modes) ;
 
@@ -952,7 +926,7 @@ extern FILE *fopen (const char *__restrict __filename,
 extern FILE *freopen (const char *__restrict __filename,
         const char *__restrict __modes,
         FILE *__restrict __stream) ;
-# 256 "/usr/include/stdio.h" 3 4
+# 297 "/usr/include/stdio.h" 3 4
 extern FILE *fopen64 (const char *__restrict __filename,
         const char *__restrict __modes) ;
 extern FILE *freopen64 (const char *__restrict __filename,
@@ -987,6 +961,7 @@ extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) throw () ;
 
 
 
+
 extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) throw ();
 
 
@@ -997,18 +972,13 @@ extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
 
 
 
+
 extern void setbuffer (FILE *__restrict __stream, char *__restrict __buf,
          size_t __size) throw ();
 
 
 extern void setlinebuf (FILE *__stream) throw ();
-
-
-
-
-
-
-
+# 356 "/usr/include/stdio.h" 3 4
 extern int fprintf (FILE *__restrict __stream,
       const char *__restrict __format, ...);
 
@@ -1037,6 +1007,8 @@ extern int vsprintf (char *__restrict __s, const char *__restrict __format,
 
 
 
+
+
 extern int snprintf (char *__restrict __s, size_t __maxlen,
        const char *__restrict __format, ...)
      throw () __attribute__ ((__format__ (__printf__, 3, 4)));
@@ -1044,6 +1016,7 @@ extern int snprintf (char *__restrict __s, size_t __maxlen,
 extern int vsnprintf (char *__restrict __s, size_t __maxlen,
         const char *__restrict __format, __gnuc_va_list __arg)
      throw () __attribute__ ((__format__ (__printf__, 3, 0)));
+
 
 
 
@@ -1067,13 +1040,7 @@ extern int vdprintf (int __fd, const char *__restrict __fmt,
      __attribute__ ((__format__ (__printf__, 2, 0)));
 extern int dprintf (int __fd, const char *__restrict __fmt, ...)
      __attribute__ ((__format__ (__printf__, 2, 3)));
-
-
-
-
-
-
-
+# 425 "/usr/include/stdio.h" 3 4
 extern int fscanf (FILE *__restrict __stream,
      const char *__restrict __format, ...) ;
 
@@ -1084,7 +1051,7 @@ extern int scanf (const char *__restrict __format, ...) ;
 
 extern int sscanf (const char *__restrict __s,
      const char *__restrict __format, ...) throw ();
-# 420 "/usr/include/stdio.h" 3 4
+# 471 "/usr/include/stdio.h" 3 4
 extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
       __gnuc_va_list __arg)
      __attribute__ ((__format__ (__scanf__, 2, 0))) ;
@@ -1100,7 +1067,7 @@ extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg)
 extern int vsscanf (const char *__restrict __s,
       const char *__restrict __format, __gnuc_va_list __arg)
      throw () __attribute__ ((__format__ (__scanf__, 2, 0)));
-# 477 "/usr/include/stdio.h" 3 4
+# 531 "/usr/include/stdio.h" 3 4
 extern int fgetc (FILE *__stream);
 extern int getc (FILE *__stream);
 
@@ -1109,12 +1076,12 @@ extern int getc (FILE *__stream);
 
 
 extern int getchar (void);
-# 495 "/usr/include/stdio.h" 3 4
+# 550 "/usr/include/stdio.h" 3 4
 extern int getc_unlocked (FILE *__stream);
 extern int getchar_unlocked (void);
-# 506 "/usr/include/stdio.h" 3 4
+# 561 "/usr/include/stdio.h" 3 4
 extern int fgetc_unlocked (FILE *__stream);
-# 517 "/usr/include/stdio.h" 3 4
+# 573 "/usr/include/stdio.h" 3 4
 extern int fputc (int __c, FILE *__stream);
 extern int putc (int __c, FILE *__stream);
 
@@ -1123,7 +1090,7 @@ extern int putc (int __c, FILE *__stream);
 
 
 extern int putchar (int __c);
-# 537 "/usr/include/stdio.h" 3 4
+# 594 "/usr/include/stdio.h" 3 4
 extern int fputc_unlocked (int __c, FILE *__stream);
 
 
@@ -1144,21 +1111,15 @@ extern int getw (FILE *__stream);
 
 
 extern int putw (int __w, FILE *__stream);
-
-
-
-
-
-
-
+# 622 "/usr/include/stdio.h" 3 4
 extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
           ;
-# 577 "/usr/include/stdio.h" 3 4
+# 638 "/usr/include/stdio.h" 3 4
 extern char *gets (char *__s) __attribute__ ((__deprecated__));
-# 587 "/usr/include/stdio.h" 3 4
+# 649 "/usr/include/stdio.h" 3 4
 extern char *fgets_unlocked (char *__restrict __s, int __n,
         FILE *__restrict __stream) ;
-# 603 "/usr/include/stdio.h" 3 4
+# 665 "/usr/include/stdio.h" 3 4
 extern __ssize_t __getdelim (char **__restrict __lineptr,
           size_t *__restrict __n, int __delimiter,
           FILE *__restrict __stream) ;
@@ -1175,13 +1136,7 @@ extern __ssize_t getdelim (char **__restrict __lineptr,
 extern __ssize_t getline (char **__restrict __lineptr,
        size_t *__restrict __n,
        FILE *__restrict __stream) ;
-
-
-
-
-
-
-
+# 689 "/usr/include/stdio.h" 3 4
 extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
 
 
@@ -1210,21 +1165,15 @@ extern size_t fread (void *__restrict __ptr, size_t __size,
 
 extern size_t fwrite (const void *__restrict __ptr, size_t __size,
         size_t __n, FILE *__restrict __s);
-# 662 "/usr/include/stdio.h" 3 4
+# 726 "/usr/include/stdio.h" 3 4
 extern int fputs_unlocked (const char *__restrict __s,
       FILE *__restrict __stream);
-# 673 "/usr/include/stdio.h" 3 4
+# 737 "/usr/include/stdio.h" 3 4
 extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
          size_t __n, FILE *__restrict __stream) ;
 extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
           size_t __n, FILE *__restrict __stream);
-
-
-
-
-
-
-
+# 749 "/usr/include/stdio.h" 3 4
 extern int fseek (FILE *__stream, long int __off, int __whence);
 
 
@@ -1236,25 +1185,26 @@ extern long int ftell (FILE *__stream) ;
 
 
 extern void rewind (FILE *__stream);
-# 707 "/usr/include/stdio.h" 3 4
+# 773 "/usr/include/stdio.h" 3 4
 extern int fseeko (FILE *__stream, __off_t __off, int __whence);
 
 
 
 
 extern __off_t ftello (FILE *__stream) ;
-# 731 "/usr/include/stdio.h" 3 4
+# 798 "/usr/include/stdio.h" 3 4
 extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);
 
 
 
 
 extern int fsetpos (FILE *__stream, const fpos_t *__pos);
-# 750 "/usr/include/stdio.h" 3 4
+# 818 "/usr/include/stdio.h" 3 4
 extern int fseeko64 (FILE *__stream, __off64_t __off, int __whence);
 extern __off64_t ftello64 (FILE *__stream) ;
 extern int fgetpos64 (FILE *__restrict __stream, fpos64_t *__restrict __pos);
 extern int fsetpos64 (FILE *__stream, const fpos64_t *__pos);
+
 
 
 
@@ -1266,17 +1216,13 @@ extern int ferror (FILE *__stream) throw () ;
 
 
 
+
 extern void clearerr_unlocked (FILE *__stream) throw ();
 extern int feof_unlocked (FILE *__stream) throw () ;
 extern int ferror_unlocked (FILE *__stream) throw () ;
-
-
-
-
-
-
-
+# 846 "/usr/include/stdio.h" 3 4
 extern void perror (const char *__s);
+
 
 
 
@@ -1291,7 +1237,7 @@ extern const char *const sys_errlist[];
 
 extern int _sys_nerr;
 extern const char *const _sys_errlist[];
-# 782 "/usr/include/stdio.h" 2 3 4
+# 854 "/usr/include/stdio.h" 2 3 4
 
 
 
@@ -1302,7 +1248,7 @@ extern int fileno (FILE *__stream) throw () ;
 
 
 extern int fileno_unlocked (FILE *__stream) throw () ;
-# 800 "/usr/include/stdio.h" 3 4
+# 872 "/usr/include/stdio.h" 3 4
 extern FILE *popen (const char *__command, const char *__modes) ;
 
 
@@ -1351,36 +1297,27 @@ extern int ftrylockfile (FILE *__stream) throw () ;
 
 
 extern void funlockfile (FILE *__stream) throw ();
-# 868 "/usr/include/stdio.h" 3 4
+# 942 "/usr/include/stdio.h" 3 4
 }
 # 5 "conv_net.cpp" 2
 # 1 "/usr/include/string.h" 1 3 4
-# 26 "/usr/include/string.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
-# 27 "/usr/include/string.h" 2 3 4
-
+# 27 "/usr/include/string.h" 3 4
 extern "C" {
 
 
 
 
 
-# 1 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stddef.h" 1 3 4
-# 34 "/usr/include/string.h" 2 3 4
-
-
-
-
-
-
-
-
+# 1 "/opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stddef.h" 1 3 4
+# 33 "/usr/include/string.h" 2 3 4
+# 42 "/usr/include/string.h" 3 4
 extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
        size_t __n) throw () __attribute__ ((__nonnull__ (1, 2)));
 
 
 extern void *memmove (void *__dest, const void *__src, size_t __n)
      throw () __attribute__ ((__nonnull__ (1, 2)));
+
 
 
 
@@ -1393,20 +1330,22 @@ extern void *memccpy (void *__restrict __dest, const void *__restrict __src,
 
 
 
+
 extern void *memset (void *__s, int __c, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
 
 
 extern int memcmp (const void *__s1, const void *__s2, size_t __n)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 90 "/usr/include/string.h" 3 4
+# 92 "/usr/include/string.h" 3 4
 extern void *memchr (const void *__s, int __c, size_t __n)
       throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 103 "/usr/include/string.h" 3 4
+# 106 "/usr/include/string.h" 3 4
 extern void *rawmemchr (const void *__s, int __c)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 114 "/usr/include/string.h" 3 4
+# 117 "/usr/include/string.h" 3 4
 extern void *memrchr (const void *__s, int __c, size_t __n)
       throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
 
 
 
@@ -1444,11 +1383,12 @@ extern size_t strxfrm (char *__restrict __dest,
 
 
 
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 1 3 4
-# 28 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 3 4
-struct __locale_struct
+
+
+
+# 1 "/usr/include/xlocale.h" 1 3 4
+# 27 "/usr/include/xlocale.h" 3 4
+typedef struct __locale_struct
 {
 
   struct __locale_data *__locales[13];
@@ -1460,22 +1400,18 @@ struct __locale_struct
 
 
   const char *__names[13];
-};
+} *__locale_t;
 
-typedef struct __locale_struct *__locale_t;
-# 23 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 2 3 4
 
 typedef __locale_t locale_t;
-# 153 "/usr/include/string.h" 2 3 4
+# 160 "/usr/include/string.h" 2 3 4
 
 
-extern int strcoll_l (const char *__s1, const char *__s2, locale_t __l)
+extern int strcoll_l (const char *__s1, const char *__s2, __locale_t __l)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2, 3)));
 
-
 extern size_t strxfrm_l (char *__dest, const char *__src, size_t __n,
-    locale_t __l) throw () __attribute__ ((__nonnull__ (2, 4)));
-
+    __locale_t __l) throw () __attribute__ ((__nonnull__ (2, 4)));
 
 
 
@@ -1490,15 +1426,16 @@ extern char *strdup (const char *__s)
 
 extern char *strndup (const char *__string, size_t __n)
      throw () __attribute__ ((__malloc__)) __attribute__ ((__nonnull__ (1)));
-# 225 "/usr/include/string.h" 3 4
+# 231 "/usr/include/string.h" 3 4
 extern char *strchr (const char *__s, int __c)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 252 "/usr/include/string.h" 3 4
+# 258 "/usr/include/string.h" 3 4
 extern char *strrchr (const char *__s, int __c)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 265 "/usr/include/string.h" 3 4
+# 272 "/usr/include/string.h" 3 4
 extern char *strchrnul (const char *__s, int __c)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
 
 
 
@@ -1510,10 +1447,10 @@ extern size_t strcspn (const char *__s, const char *__reject)
 
 extern size_t strspn (const char *__s, const char *__accept)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 302 "/usr/include/string.h" 3 4
+# 310 "/usr/include/string.h" 3 4
 extern char *strpbrk (const char *__s, const char *__accept)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 329 "/usr/include/string.h" 3 4
+# 337 "/usr/include/string.h" 3 4
 extern char *strstr (const char *__haystack, const char *__needle)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
 
@@ -1525,6 +1462,7 @@ extern char *strtok (char *__restrict __s, const char *__restrict __delim)
 
 
 
+
 extern char *__strtok_r (char *__restrict __s,
     const char *__restrict __delim,
     char **__restrict __save_ptr)
@@ -1533,7 +1471,7 @@ extern char *__strtok_r (char *__restrict __s,
 extern char *strtok_r (char *__restrict __s, const char *__restrict __delim,
          char **__restrict __save_ptr)
      throw () __attribute__ ((__nonnull__ (2, 3)));
-# 359 "/usr/include/string.h" 3 4
+# 368 "/usr/include/string.h" 3 4
 extern char *strcasestr (const char *__haystack, const char *__needle)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
 
@@ -1559,8 +1497,10 @@ extern void *mempcpy (void *__restrict __dest,
 
 
 
+
 extern size_t strlen (const char *__s)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
 
 
 
@@ -1571,8 +1511,9 @@ extern size_t strnlen (const char *__string, size_t __maxlen)
 
 
 
+
 extern char *strerror (int __errnum) throw ();
-# 420 "/usr/include/string.h" 3 4
+# 433 "/usr/include/string.h" 3 4
 extern char *strerror_r (int __errnum, char *__buf, size_t __buflen)
      throw () __attribute__ ((__nonnull__ (2))) ;
 
@@ -1580,48 +1521,36 @@ extern char *strerror_r (int __errnum, char *__buf, size_t __buflen)
 
 
 
-extern char *strerror_l (int __errnum, locale_t __l) throw ();
-
-
-
-
-# 1 "/usr/include/strings.h" 1 3 4
-# 23 "/usr/include/strings.h" 3 4
-# 1 "/opt/xilinx/Vivado/2019.2/lnx64/tools/clang/bin/../lib/clang/3.1/include/stddef.h" 1 3 4
-# 24 "/usr/include/strings.h" 2 3 4
+extern char *strerror_l (int __errnum, __locale_t __l) throw ();
 
 
 
 
 
+extern void __bzero (void *__s, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
 
-extern "C" {
 
+
+extern void bcopy (const void *__src, void *__dest, size_t __n)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern void bzero (void *__s, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
 
 
 extern int bcmp (const void *__s1, const void *__s2, size_t __n)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern void bcopy (const void *__src, void *__dest, size_t __n)
-  throw () __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern void bzero (void *__s, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
-# 68 "/usr/include/strings.h" 3 4
+# 484 "/usr/include/string.h" 3 4
 extern char *index (const char *__s, int __c)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 96 "/usr/include/strings.h" 3 4
+# 512 "/usr/include/string.h" 3 4
 extern char *rindex (const char *__s, int __c)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
 
 
 
 
-
-
 extern int ffs (int __i) throw () __attribute__ ((__const__));
-
 
 
 
@@ -1643,23 +1572,15 @@ extern int strncasecmp (const char *__s1, const char *__s2, size_t __n)
 
 
 
-
-extern int strcasecmp_l (const char *__s1, const char *__s2, locale_t __loc)
+extern int strcasecmp_l (const char *__s1, const char *__s2,
+    __locale_t __loc)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2, 3)));
 
-
-
 extern int strncasecmp_l (const char *__s1, const char *__s2,
-     size_t __n, locale_t __loc)
+     size_t __n, __locale_t __loc)
      throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2, 4)));
 
 
-}
-# 432 "/usr/include/string.h" 2 3 4
-
-
-
-extern void explicit_bzero (void *__s, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
 
 
 
@@ -1698,14 +1619,14 @@ extern char *strfry (char *__string) throw () __attribute__ ((__nonnull__ (1)));
 
 
 extern void *memfrob (void *__s, size_t __n) throw () __attribute__ ((__nonnull__ (1)));
-# 486 "/usr/include/string.h" 3 4
+# 599 "/usr/include/string.h" 3 4
 extern char *basename (const char *__filename) throw () __attribute__ ((__nonnull__ (1)));
-# 498 "/usr/include/string.h" 3 4
+# 658 "/usr/include/string.h" 3 4
 }
 # 6 "conv_net.cpp" 2
 
 
-void xillybus_wrapper(uint8_t *in_b, uint8_t *in_g, uint8_t *in_r,DTYPE *out_t) {
+void MaxConvNet(uint8_t *in_b, uint8_t *in_g, uint8_t *in_r,DTYPE *out_t) {
 #pragma HLS INTERFACE s_axilite register port=&in_b bundle=ctl
 #pragma HLS INTERFACE m_axi depth=512 port=&in_b offset=slave bundle=b
 #pragma HLS INTERFACE s_axilite register port=&in_g bundle=ctl
